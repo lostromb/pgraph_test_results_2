@@ -5,7 +5,7 @@ xemu-dev_pgraph_test_results
 
 This repo is solely intended to showcase test results for pull requests of [xemu](http://xemu.app).
 
-[Results are browsable on this repo's Pages page](https://abaire.github.io/xemu-dev_pgraph_test_results)
+[Results are browsable on this repo's Pages page](https://lostromb.github.io/pgraph_test_results_2)
 
 ## Usage for xemu contributors
 
