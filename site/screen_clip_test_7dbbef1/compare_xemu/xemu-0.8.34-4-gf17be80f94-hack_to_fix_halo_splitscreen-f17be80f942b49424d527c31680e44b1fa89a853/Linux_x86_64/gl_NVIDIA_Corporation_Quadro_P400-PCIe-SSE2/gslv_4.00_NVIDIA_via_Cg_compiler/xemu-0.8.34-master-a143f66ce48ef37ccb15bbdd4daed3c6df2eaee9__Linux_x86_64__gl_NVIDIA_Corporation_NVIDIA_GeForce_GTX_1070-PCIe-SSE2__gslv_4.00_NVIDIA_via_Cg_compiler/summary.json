@@ -1,0 +1,31 @@
+{
+  "golden_identifier": "xemu-0.8.34-master-a143f66ce48ef37ccb15bbdd4daed3c6df2eaee9:Linux_x86_64:gl_NVIDIA_Corporation_NVIDIA_GeForce_GTX_1070-PCIe-SSE2:gslv_4.00_NVIDIA_via_Cg_compiler",
+  "goldens_without_results": [],
+  "result_identifier": "xemu-0.8.34-4-gf17be80f94-hack_to_fix_halo_splitscreen-f17be80f942b49424d527c31680e44b1fa89a853:Linux_x86_64:gl_NVIDIA_Corporation_Quadro_P400-PCIe-SSE2:gslv_4.00_NVIDIA_via_Cg_compiler",
+  "tests_with_differences": {
+    "Antialiasing_tests:AAOnThenOffCPUWrite": "639",
+    "Antialiasing_tests:CPUWriteIgnoresSurfaceConfig": "11819",
+    "Antialiasing_tests:FramebufferNotModifiedBySurfaceState": "1216",
+    "Antialiasing_tests:NonAACPURoundTrip": "41126",
+    "DMA_corruption_around_surfaces:DMAOverlap": "43350",
+    "Stencil:Stencil_ZERO": "38796",
+    "Surface_clip:XemuBug420": "628",
+    "Surface_clip:x0y0_w0h0": "566",
+    "Surface_clip:x0y0_w512h384": "751",
+    "Surface_clip:x0y0_w640h480": "770",
+    "Surface_clip:x0y240_w640h240": "76419",
+    "Surface_clip:x16y8_w512h384": "3448",
+    "Surface_clip:x320y240_w320h240": "37611",
+    "Surface_clip:x8y16_w632h464": "6534",
+    "Surface_pitch:Swizzle": "8192",
+    "Texture_border:2D_BorderTex_SZ": "5563",
+    "Vertex_shader_rounding_tests:GeometrySubscreen_0.0000": "131",
+    "Vertex_shader_rounding_tests:GeometrySubscreen_0.0010": "160",
+    "Vertex_shader_rounding_tests:GeometrySubscreen_0.9990": "124",
+    "Vertex_shader_rounding_tests:GeometrySubscreen_1.0000": "151",
+    "Vertex_shader_rounding_tests:RenderTarget": "81177"
+  },
+  "tests_without_goldens": [
+    "Surface_clip:DebugTextShouldClip"
+  ]
+}
